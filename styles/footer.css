@@ -1,0 +1,213 @@
+/* Testimonial Styles */
+.testimonial-active-3 .carousel-item img {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .section-title-3 > span {
+    color: #1e2127;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Gothic A1", sans-serif;
+  }
+  
+  .section-title-3 > h2 {
+    color: #1e2127;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 26px 0 0;
+  }
+  
+  .client3-content > p {
+    color: #444;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    font-family: "Gothic A1", sans-serif;
+  }
+  
+  .client3-content {
+    border: 1px solid #e7e9ec;
+    padding: 40px 40px 65px;
+  }
+  
+  .client3-info {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    float: left;
+    margin-left: 32px;
+    margin-top: -44px;
+    padding-right: 18px;
+    position: relative;
+    z-index: 99;
+  }
+  
+  .client3-info > h5 {
+    color: #15273e;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 22px 0 10px;
+    position: relative;
+  }
+  
+  .client3-info > h5::before {
+    background-color: #95999e;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: -15px;
+    top: 8px;
+    width: 7px;
+  }
+  
+  .client3-info > span {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /* Footer Styles */
+  .footer-area {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+  }
+  
+  .footer-work-title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+    font-family: "Gothic A1", sans-serif;
+  }
+  
+  .footer-title h4 {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 500;
+  }
+  
+  .footer-addres-hm5 > p {
+    color: #333;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 0;
+  }
+  
+  .footer-addres-hm5 > p a {
+    color: #333;
+  }
+  
+  .copyright > p {
+    color: #15273e;
+    font-family: "Gothic A1", sans-serif;
+  }
+  
+  .copyright > p a {
+    color: #15273e;
+  }
+  
+  .copyright > p a:hover,
+  .footer-addres-hm5 > p a:hover {
+    color: #4b8bf6;
+  }
+  
+  /* Social Media Icons Animation */
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .social-icons ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon-inner {
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facebook-icon:hover {
+    color: #3b5998;
+  }
+  
+  .instagram-icon:hover {
+    color: #e1306c;
+  }
+  
+  .twitter-icon:hover {
+    color: #1da1f2;
+  }
+  
+  .linkedin-icon:hover {
+    color: #0077b5;
+  }
+  
+  .youtube-icon:hover {
+    color: #ff0000;
+  }
+  
+  /* Animation classes */
+  .animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  
+  .fadeInRight {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
