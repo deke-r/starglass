@@ -5,6 +5,9 @@ import Link from "next/link";
 import ServicesSection from "@/components/ServicesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FooterSection from "@/components/FooterSection";
+import KnowOurWorkSection from "@/components/KnowOurWorkSection";
+import FooterSupportBanner from "@/components/FooterSupportBanner";
+import DedicationSection from "@/components/DedicationSection";
 
 export const metadata = {
   title: "Glass  Company | Glass Dealer in Noida, Delhi, and Gurgaon",
@@ -50,10 +53,29 @@ With decades of experience, we take pride in finding efficient and cost-saving s
 
 
 
-      <ServicesSection/>
-      <TestimonialsSection/>
-    
-      
+
+      <ServicesSection />
+      <DedicationSection />
+      <TestimonialsSection />
+
+      <KnowOurWorkSection
+        backgroundColor="#174EC1"
+        imageSrc="/images/Rectangle-25.webp"
+        heading="WANTS TO KNOW OUR WORK ?"
+        description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
+        exploreLink="/portfolio"
+        exploreText="EXPLORE"
+      />
+
+      <FooterSupportBanner
+        text="Always Ready to Help You 24/7"
+        className="footer-top border-bottom-1 bg-light py-4"
+        textAlign="text-center"
+        headingTag="h2"
+      />
+
+
+
 
     </>
   );

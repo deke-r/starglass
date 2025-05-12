@@ -11,8 +11,8 @@ const FooterSection = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-7">
               <div className="footer-widget mb-40">
-                <Image src="/assets/img/logo/Star Glass Logo.png" alt="Star Glass Logo" width={200} height={80} />
-                <p className="mt-4">
+                <Image src="/images/Star Glass Logo.webp" alt="Star Glass Logo" width={200} height={40} />
+                <p className="mt-4 fw-semibold">
                   Starglass specializes in expert glass manufacturing, crafting high-quality products with precision,
                   durability, and a touch of elegance for your needs.
                 </p>
@@ -51,7 +51,7 @@ const FooterSection = () => {
             <div className="col-lg-3 col-md-6 col-sm-5">
               <div className="footer-widget mb-40">
                 <div className="footer-title mb-20">
-                  <h4>Get In Touch</h4>
+                  <h4 className="fw-semibold">Get In Touch</h4>
                 </div>
                 <div className="footer-cont-info">
                   <div className="single-footer-cont-info">
@@ -91,7 +91,7 @@ const FooterSection = () => {
             <div className="col-lg-3 col-md-6 col-sm-7">
               <div className="footer-widget mb-40">
                 <div className="footer-title mb-20">
-                  <h4>Quick Link</h4>
+                  <h4 className="fw-semibold">Quick Link</h4>
                 </div>
                 <div className="faq-accordion element-mrg">
                   <div className="panel-group" id="accordion">
@@ -130,13 +130,13 @@ const FooterSection = () => {
             <div className="col-lg-3 col-md-6 col-sm-7">
               <div className="footer-widget mb-40">
                 <div className="footer-title mb-20">
-                  <h4>Services</h4>
+                  <h4 className="fw-semibold">Services</h4>
                 </div>
                 <div className="faq-accordion element-mrg">
                   <div className="panel-group" id="accordion">
                     <ul className="list-unstyled">
                       <li className="mt-2">
-                        <Link href="tinted-reflective-glass" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="tinted-reflective-glass hover-footer" style={{ color: "black", textDecoration: "none" }}>
                           Tinted &amp; Reflective Glass
                         </Link>
                       </li>

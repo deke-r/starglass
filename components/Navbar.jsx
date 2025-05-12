@@ -48,36 +48,36 @@ const Navbar = () => {
         <div className="collapse bg-md-light rounded-2 navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto me-md-5 mb-2 text-center mb-lg-0">
             <li className="nav-item"><Link href="/" className="nav-link">HOME</Link></li>
-            <li className="nav-item"><Link href="/whoweare" className="nav-link">ABOUT</Link></li>
+            <li className="nav-item"><Link href="/about-us" className="nav-link">ABOUT</Link></li>
             <li className={`nav-item dropdown ${dropdownOpen ? 'open' : ''}`} onClick={toggleDropdown}>
               <span className="nav-link dropdown-toggle" id="servicesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                 SERVICES
               </span>
               <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
-  <li><Link href="/tinted-reflective-glass" className="dropdown-item d-flex align-items-center gap-2"><Droplet size={16} className='text-b' /> Tinted & Reflective Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/toughened-glass" className="dropdown-item d-flex align-items-center gap-2"><Ruler size={16} className='text-b' /> Toughened Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/beveled-glass" className="dropdown-item d-flex align-items-center gap-2"><Layers size={16} className='text-b' /> Beveled Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/exterior-glass" className="dropdown-item d-flex align-items-center gap-2"><Landmark size={16} className='text-b' /> Exterior Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/staircase-railing" className="dropdown-item d-flex align-items-center gap-2"><MoveDown size={16} className='text-b' /> Staircase Railing</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/lacquered-glass" className="dropdown-item d-flex align-items-center gap-2"><PaintBucket size={16} className='text-b'/> Lacquered Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/bend-glass" className="dropdown-item d-flex align-items-center gap-2"><Crop size={16}className='text-b' /> Bend Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/stained-glass" className="dropdown-item d-flex align-items-center gap-2"><ScanLine size={16} className='text-b' /> Stained Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/etching-glass" className="dropdown-item d-flex align-items-center gap-2"><Square size={16} className='text-b' /> Etching Glass</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/decorative-mirror" className="dropdown-item d-flex align-items-center gap-2"><Shapes size={16} className='text-b' /> Decorative Mirror</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/glass-block" className="dropdown-item d-flex align-items-center gap-2"><GlassWater size={16} className='text-b' /> Glass Block</Link></li>
-  <hr className="dropdown-divider-custom" />
-  <li><Link href="/designer-glass" className="dropdown-item d-flex align-items-center gap-2"><Sparkles size={16} className='text-b'/> Designer Glass</Link></li>
-</ul>
+                <li><Link href="/tinted-reflective-glass" className="dropdown-item d-flex align-items-center gap-2"><Droplet size={16} className='text-b' /> Tinted & Reflective Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/toughened-glass" className="dropdown-item d-flex align-items-center gap-2"><Ruler size={16} className='text-b' /> Toughened Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/beveled-glass" className="dropdown-item d-flex align-items-center gap-2"><Layers size={16} className='text-b' /> Beveled Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/exterior-glass" className="dropdown-item d-flex align-items-center gap-2"><Landmark size={16} className='text-b' /> Exterior Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/staircase-railing" className="dropdown-item d-flex align-items-center gap-2"><MoveDown size={16} className='text-b' /> Staircase Railing</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/lacquered-glass" className="dropdown-item d-flex align-items-center gap-2"><PaintBucket size={16} className='text-b' /> Lacquered Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/bend-glass" className="dropdown-item d-flex align-items-center gap-2"><Crop size={16} className='text-b' /> Bend Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/stained-glass" className="dropdown-item d-flex align-items-center gap-2"><ScanLine size={16} className='text-b' /> Stained Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/etching-glass" className="dropdown-item d-flex align-items-center gap-2"><Square size={16} className='text-b' /> Etching Glass</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/decorative-mirror" className="dropdown-item d-flex align-items-center gap-2"><Shapes size={16} className='text-b' /> Decorative Mirror</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/glass-block" className="dropdown-item d-flex align-items-center gap-2"><GlassWater size={16} className='text-b' /> Glass Block</Link></li>
+                <hr className="dropdown-divider-custom" />
+                <li><Link href="/designer-glass" className="dropdown-item d-flex align-items-center gap-2"><Sparkles size={16} className='text-b' /> Designer Glass</Link></li>
+              </ul>
 
 
             </li>

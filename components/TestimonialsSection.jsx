@@ -49,15 +49,15 @@ const TestimonialsSection = () => {
                             </p>
                           </div>
                           <div className="client3-info">
-                            <Image src="/assets/img/testimonial/client-3.png" alt="Client" width={60} height={60} />
+                            <img src="/images/client-3.webp" alt="Client" width={60} height={60} />
                             <h5>Anet Growswood</h5>
                             <span>Customer</span>
                           </div>
                         </div>
                       </div>
                       <div className="col-md-6 box animate fadeInRight four">
-                        <Image
-                          src="/assets/img/Rectangle-20.png"
+                        <img
+                          src="/images/Rectangle-20.webp"
                           alt="Testimonial"
                           className="img-fluid"
                           width={500}
@@ -78,15 +78,15 @@ const TestimonialsSection = () => {
                             </p>
                           </div>
                           <div className="client3-info">
-                            <Image src="/assets/img/testimonial/client-4.png" alt="Client" width={60} height={60} />
+                            <img src="/images/client-4.webp" alt="Client" width={60} height={60} />
                             <h5>Anet Growswood</h5>
                             <span>Customer</span>
                           </div>
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <Image
-                          src="/assets/img/Rectangle-20.png"
+                        <img
+                          src="/images/Rectangle-20.webp"
                           alt="Testimonial"
                           className="img-fluid"
                           width={500}
@@ -107,14 +107,14 @@ const TestimonialsSection = () => {
                             </p>
                           </div>
                           <div className="client3-info">
-                            <Image src="/assets/img/testimonial/client-3.png" alt="Client" width={60} height={60} />
+                            <img src="/images/client-3.webp" alt="Client" width={60} height={60} />
                             <h5>Anet Growswood</h5>
                             <span>Customer</span>
                           </div>
                         </div>
                       </div>
                       <div className="col-md-6">
-                        <Image
+                        <img
                           src="/assets/img/Rectangle-23.png"
                           alt="Testimonial"
                           className="img-fluid"
