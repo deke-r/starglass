@@ -118,7 +118,7 @@ export default function ContactSection() {
                           required: "Phone number is required",
                           pattern: {
                             value: /^[6-9]\d{9}$/,
-                            message: "Invalid Indian phone number"
+                            message: "Invalid phone number"
                           }
                         })}
                         className={errors.phone ? "error" : ""}
