@@ -1,3 +1,39 @@
+export const metadata = {
+  title: 'Glass Company | Glass Dealer in Noida, Delhi, and Gurgaon',
+  description:
+    'StarGlass is the leading glass dealer in Noida, Delhi, and Gurgaon. tinted, toughened, beveled, exterior, lacquered, bend, stained, etching. Call us at 9319412012',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  alternates: {
+    canonical: 'https://starglass.in/',
+  },
+  openGraph: {
+    title: 'Glass Company | Glass Dealer in Noida, Delhi, and Gurgaon',
+    description:
+      'StarGlass is the leading glass dealer in Noida, Delhi, and Gurgaon. tinted, toughened, beveled, exterior, lacquered, bend, stained, etching. Call us at 9319412012',
+    url: 'https://starglass.in/',
+    siteName: 'StarGlass',
+    type: 'website',
+    locale: 'en_IN',
+    images: [
+      {
+        url: '/images/Star Glass Logo.webp',
+        alt: 'StarGlass Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Glass Company | Glass Dealer in Noida, Delhi, and Gurgaon',
+    description:
+      'StarGlass is the leading glass dealer in Noida, Delhi, and Gurgaon. tinted, toughened, beveled, exterior, lacquered, bend, stained, etching. Call us at 9319412012',
+    images: ['/images/Star Glass Logo.webp'],
+  },
+}
+
+
+
+
+
 import GlassDealerSection from "../components/GlassDealerSection";
 import Carousel from "../components/Carousel";
 import Navbar from "../components/Navbar";
@@ -9,10 +45,7 @@ import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import DedicationSection from "@/components/DedicationSection";
 
-export const metadata = {
-  title: "Glass  Company | Glass Dealer in Noida, Delhi, and Gurgaon",
-  description: "StarGlass is the leading glass dealer in Noida, Delhi, and Gurgaon. tinted, toughened, beveled, exterior, lacquered, bend, stained, etching. Call us at 9319412012",
-};
+
 
 export default function Page() {
   return (
@@ -45,7 +78,7 @@ With decades of experience, we take pride in finding efficient and cost-saving s
                 Contact us to discover the premier choice for all your glass needs.
               </h4>
               <br />
-              <Link href='/about' className="rounded-pill bg-b btn text-light f_15 px-3 py-2 fw-semibold"> Know More About Us</Link>
+              <Link href='/about-us' className="rounded-pill bg-b btn text-light f_15 px-3 py-2 fw-semibold"> Know More About Us</Link>
             </div>
           </div>
         </div>
@@ -63,7 +96,7 @@ With decades of experience, we take pride in finding efficient and cost-saving s
         imageSrc="/images/Rectangle-25.webp"
         heading="WANTS TO KNOW OUR WORK ?"
         description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-        exploreLink="/portfolio"
+        exploreLink="/about-us"
         exploreText="EXPLORE"
       />
 

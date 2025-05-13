@@ -1,3 +1,37 @@
+export const metadata = {
+    title: 'About us | Toughened, Stained, Bend Glass - Starglass',
+    description:
+      'Learn about StarGlass – a trusted name in the glass industry offering toughened, stained, bend, lacquered, and decorative glass solutions across Noida, Delhi, and Gurgaon.',
+    alternates: {
+      canonical: 'https://starglass.in/about-us',
+    },
+    openGraph: {
+      title: 'About us | Toughened, Stained, Bend Glass - Starglass',
+      description:
+        'Learn about StarGlass – a trusted name in the glass industry offering toughened, stained, bend, lacquered, and decorative glass solutions across Noida, Delhi, and Gurgaon.',
+      url: 'https://starglass.in/about-us',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'About us | Toughened, Stained, Bend Glass - Starglass',
+      description:
+        'Learn about StarGlass – a trusted name in the glass industry offering toughened, stained, bend, lacquered, and decorative glass solutions across Noida, Delhi, and Gurgaon.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
+
 import AboutSection from "@/components/AboutSection";
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import FunfactSection from "@/components/FunfactSection";

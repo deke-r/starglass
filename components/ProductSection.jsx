@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 
 
@@ -98,9 +99,9 @@ export default function ProductSection({
             <h4>Why Choose Our Glass Solutions?</h4>
             <p>{description}</p>
             <div className="mt-3">
-              <a href="#" className="btn bg-b text-light">
+              <Link href="/about-us" className="btn bg-b text-light">
                 Learn More About Starglass
-              </a>
+              </Link>
             </div>
           </div>
         </div>

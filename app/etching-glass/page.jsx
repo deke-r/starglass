@@ -1,3 +1,31 @@
+export const metadata = {
+    title: 'Etching Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+    description:
+      'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/etching-glass',
+    },
+    openGraph: {
+      title: 'Etching Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
+      url: 'https://starglass.in/etching-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Etching Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
+    },
+  }
+  
+
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -7,7 +35,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import ProductSection from "@/components/ProductSection";
 import { Lightbulb, Crown, BarChart3 } from "lucide-react"
 
-export default function BG() {
+export default function ETG() {
     const howItWorksData = {
         title: "HOW IT WORKS",
         description: `
@@ -121,7 +149,7 @@ In our section, We're different, thanks to dedication, skills, and enthusiasm. R
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

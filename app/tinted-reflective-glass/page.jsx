@@ -1,3 +1,37 @@
+export const metadata = {
+    title: 'Tinted and Reflective Glass Manufacturer in Noida, Delhi NCR, Gurgaon',
+    description:
+      'Starglass is the best tinted and reflective glass manufacturer in Noida. We\'re known for quality and style. Request a quote and call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/tinted-reflective-glass',
+    },
+    openGraph: {
+      title: 'Tinted and Reflective Glass Manufacturer in Noida, Delhi NCR, Gurgaon',
+      description:
+        'Starglass is the best tinted and reflective glass manufacturer in Noida. We\'re known for quality and style. Request a quote and call us at 9319412012.',
+      url: 'https://starglass.in/tinted-reflective-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Tinted and Reflective Glass Manufacturer in Noida, Delhi NCR, Gurgaon',
+      description:
+        'Starglass is the best tinted and reflective glass manufacturer in Noida. We\'re known for quality and style. Request a quote and call us at 9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -116,7 +150,7 @@ export default function TRG() {
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

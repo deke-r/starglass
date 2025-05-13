@@ -37,7 +37,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #0566f5;
+    color: #174EC1;
     position: relative;
   }
   
@@ -48,7 +48,7 @@
     left: 0;
     width: 60px;
     height: 3px;
-    background-color: #0566f5;
+    background-color: #174EC1;
   }
   
   .contact-desc {
@@ -78,7 +78,7 @@
   .contact-info-icon {
     width: 50px;
     height: 50px;
-    background-color: #0566f5;
+    background-color: #174EC1;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@
   }
   
   .contact-info-content a {
-    color: #0566f5;
+    color: #174EC1;
     text-decoration: none;
     transition: all 0.3s ease;
   }
@@ -176,7 +176,7 @@
     left: 20px;
     right: 20px;
     bottom: 0;
-    background-color: #0566f5;
+    background-color: #174EC1;
     border-radius: 10px;
     z-index: -1;
     opacity: 0.1;
@@ -201,7 +201,7 @@
   
   .contact-from input:focus,
   .contact-from textarea:focus {
-    border-color: #0566f5;
+    border-color: #174EC1;
     box-shadow: 0 0 0 3px rgba(5, 102, 245, 0.1);
     outline: none;
     background-color: white;
@@ -227,7 +227,7 @@
   }
   
   .submit {
-    background-color: #0566f5;
+    background-color: #174EC1;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -253,7 +253,7 @@
   }
   
   .submit.submitting {
-    background-color: #0566f5;
+    background-color: #174EC1;
     opacity: 0.8;
     cursor: not-allowed;
   }

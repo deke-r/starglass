@@ -1,3 +1,36 @@
+export const metadata = {
+    title: 'Beveled Glass Dealers & Traders in Delhi NCR, Noida, Gurgaon | StarGlass',
+    description:
+      'StarGlass is among the top Beveled Glass Dealers and traders in Delhi NCR, Noida, and Gurgaon. Make your space look better with fancy glasswork. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/beveled-glass',
+    },
+    openGraph: {
+      title: 'Beveled Glass Dealers & Traders in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is among the top Beveled Glass Dealers and traders in Delhi NCR, Noida, and Gurgaon. Make your space look better with fancy glasswork. Call us at 9319412012.',
+      url: 'https://starglass.in/beveled-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Beveled Glass Dealers & Traders in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is among the top Beveled Glass Dealers and traders in Delhi NCR, Noida, and Gurgaon. Make your space look better with fancy glasswork. Call us at 9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -108,7 +141,7 @@ Our beveled glass is carefully crafted to perfectly fit door or window openings,
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

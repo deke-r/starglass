@@ -1,3 +1,36 @@
+export const metadata = {
+    title: 'Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+    description:
+      'Looking for the top Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon? StarGlass is the best at selling glass for the outside of buildings. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/exterior-glass',
+    },
+    openGraph: {
+      title: 'Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'Looking for the top Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon? StarGlass is the best at selling glass for the outside of buildings. Call us at 9319412012.',
+      url: 'https://starglass.in/exterior-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'Looking for the top Exterior Glass Dealers in Delhi NCR, Noida, Gurgaon? StarGlass is the best at selling glass for the outside of buildings. Call us at 9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -107,7 +140,7 @@ We provide top Exterior Glass in Noida. StarGlass offers exterior residential gl
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

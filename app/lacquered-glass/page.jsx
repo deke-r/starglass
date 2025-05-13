@@ -1,3 +1,36 @@
+export const metadata = {
+    title: 'Lacquered Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+    description:
+      'StarGlass is the best Lacquered Glass Dealer in Delhi NCR, Noida, and Gurgaon. Give your space a modern and stylish look. Request a Free Quote at +91-9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/lacquered-glass',
+    },
+    openGraph: {
+      title: 'Lacquered Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is the best Lacquered Glass Dealer in Delhi NCR, Noida, and Gurgaon. Give your space a modern and stylish look. Request a Free Quote at +91-9319412012.',
+      url: 'https://starglass.in/lacquered-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Lacquered Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'StarGlass is the best Lacquered Glass Dealer in Delhi NCR, Noida, and Gurgaon. Give your space a modern and stylish look. Request a Free Quote at +91-9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -7,7 +40,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import ProductSection from "@/components/ProductSection";
 import { Lightbulb, Crown, BarChart3 } from "lucide-react"
 
-export default function TRG() {
+export default function LG() {
     const howItWorksData = {
         title: "HOW IT WORKS",
         description: `StarGlass is a Lacquered Glass dealer in Delhi NCR, Noida, Gurgaon. Similarly, our lacquered glass manufacturing process ensures proper bonding and a smooth finish. The back-painted technique gives it an opaque, coloured appearance, enhancing the aesthetic brilliance of homes and offices. While commonly used for stylish interiors, glass can help you now be processed and acquire durable properties of offer both beauty and longevity.
@@ -105,7 +138,7 @@ StarGlass provides the Lacquered Glass in Delhi NCR, Noida, Gurgaon. Choose us f
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

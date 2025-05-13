@@ -8,7 +8,7 @@ const KnowOurWorkSection = ({
   description = `At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing. 
 
 Our experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`,
-  exploreLink = "#",
+  exploreLink = "/about-us",
   exploreText = "EXPLORE",
 }) => {
   return (

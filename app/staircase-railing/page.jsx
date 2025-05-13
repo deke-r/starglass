@@ -1,3 +1,38 @@
+export const metadata = {
+    title: 'Staircase Glass Railing Manufacturer in Noida | StarGlass',
+    description:
+      'Get the Best Staircase Glass Railing Manufacturer in Noida. Contact StarGlass for expert advice on stunning glass railing solutions. Call us at +91-9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/staircase-railing',
+    },
+    openGraph: {
+      title: 'Staircase Glass Railing Manufacturer in Noida | StarGlass',
+      description:
+        'Get the Best Staircase Glass Railing Manufacturer in Noida. Contact StarGlass for expert advice on stunning glass railing solutions. Call us at +91-9319412012.',
+      url: 'https://starglass.in/staircase-railing',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Staircase Glass Railing Manufacturer in Noida | StarGlass',
+      description:
+        'Get the Best Staircase Glass Railing Manufacturer in Noida. Contact StarGlass for expert advice on stunning glass railing solutions. Call us at +91-9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -107,7 +142,7 @@ Glass railings enhance safety and bring brightness to interior spaces. We absorb
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

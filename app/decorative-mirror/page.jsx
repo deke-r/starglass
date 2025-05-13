@@ -1,3 +1,31 @@
+export const metadata = {
+    title: 'Decorative Mirror Dealers & Suppliers in Noida, Delhi, Gurgaon | StarGlass',
+    description:
+      'Get the best Decorative Mirror Dealers and suppliers in Noida, Delhi, and Gurgaon. StarGlass is one of the best in the market and provides quality service. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/decorative-mirror',
+    },
+    openGraph: {
+      title: 'Decorative Mirror Dealers & Suppliers in Noida, Delhi, Gurgaon | StarGlass',
+      description:
+        'Get the best Decorative Mirror Dealers and suppliers in Noida, Delhi, and Gurgaon. StarGlass is one of the best in the market and provides quality service. Call us at 9319412012.',
+      url: 'https://starglass.in/decorative-mirror',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Decorative Mirror Dealers & Suppliers in Noida, Delhi, Gurgaon | StarGlass',
+      description:
+        'Get the best Decorative Mirror Dealers and suppliers in Noida, Delhi, and Gurgaon. StarGlass is one of the best in the market and provides quality service. Call us at 9319412012.',
+    },
+  }
+  
+
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -106,7 +134,7 @@ Decorative glass offers endless possibilities in shape, size, colour, and design
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

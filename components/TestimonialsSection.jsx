@@ -115,7 +115,7 @@ const TestimonialsSection = () => {
                       </div>
                       <div className="col-md-6">
                         <img
-                          src="/assets/img/Rectangle-23.png"
+                          src="/images/Rectangle-20.webp"
                           alt="Testimonial"
                           className="img-fluid"
                           width={500}

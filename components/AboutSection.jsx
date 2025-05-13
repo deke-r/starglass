@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function AboutSection() {
   return (
@@ -40,7 +41,7 @@ export default function AboutSection() {
                 providing sustainable and creative structural solutions to complicated problems. Explore their full
                 Glass Solutions Portfolio to see how they put their design philosophy into practice.
               </p>
-              <a className="text-light">Contact Us</a>
+              <Link href='/contact' className="text-light">Contact Us</Link>
             </div>
           </div>
         </div>

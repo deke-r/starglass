@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Instagram, Twitter, Linkedin, Youtube } from "react-bootstrap-icons"
+import { Facebook, Instagram, Twitter, Linkedin, Pinterest  } from "react-bootstrap-icons"
 import '../styles/footer.css';
 
 const FooterSection = () => {
@@ -19,28 +19,28 @@ const FooterSection = () => {
                 <div className="social-icons mt-4">
                   <ul className="list-inline">
                     <li className="list-inline-item">
-                      <Link href="#" className="social-icon">
+                      <Link href="https://www.facebook.com/people/StarGlass/100095301203665/" className="social-icon">
                         <Facebook className="social-icon-inner facebook-icon" />
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#" className="social-icon">
+                      <Link href="https://www.instagram.com/starglassindia/" className="social-icon">
                         <Instagram className="social-icon-inner instagram-icon" />
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#" className="social-icon">
+                      <Link href="https://x.com/StarGlass356522" className="social-icon">
                         <Twitter className="social-icon-inner twitter-icon" />
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#" className="social-icon">
+                      <Link href="https://www.linkedin.com/company/starglassindia" className="social-icon">
                         <Linkedin className="social-icon-inner linkedin-icon" />
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#" className="social-icon">
-                        <Youtube className="social-icon-inner youtube-icon" />
+                      <Link href="https://in.pinterest.com/starglassofficial/" className="social-icon">
+                        <Pinterest  className="social-icon-inner youtube-icon" />
                       </Link>
                     </li>
                   </ul>
@@ -97,7 +97,7 @@ const FooterSection = () => {
                   <div className="panel-group" id="accordion">
                     <ul className="list-unstyled">
                       <li className="mt-2">
-                        <Link href="" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/about-us" style={{ color: "black", textDecoration: "none" }}>
                           About Us
                         </Link>
                       </li>
@@ -117,7 +117,7 @@ const FooterSection = () => {
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/contact" style={{ color: "black", textDecoration: "none" }}>
                           Contact
                         </Link>
                       </li>
@@ -136,32 +136,32 @@ const FooterSection = () => {
                   <div className="panel-group" id="accordion">
                     <ul className="list-unstyled">
                       <li className="mt-2">
-                        <Link href="tinted-reflective-glass hover-footer" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/tinted-reflective-glass" style={{ color: "black", textDecoration: "none" }}>
                           Tinted &amp; Reflective Glass
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="toughened-glass" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/toughened-glass" style={{ color: "black", textDecoration: "none" }}>
                           Toughened Glass
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="beveled-glass" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/beveled-glass" style={{ color: "black", textDecoration: "none" }}>
                           Beveled Glass
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="exterior-glass" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/exterior-glass" style={{ color: "black", textDecoration: "none" }}>
                           Exterior Glass
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="staircase-railing" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/staircase-railing" style={{ color: "black", textDecoration: "none" }}>
                           Staircase Railing
                         </Link>
                       </li>
                       <li className="mt-2">
-                        <Link href="lacquered-glass" style={{ color: "black", textDecoration: "none" }}>
+                        <Link href="/lacquered-glass" style={{ color: "black", textDecoration: "none" }}>
                           Lacquered Glass
                         </Link>
                       </li>

@@ -1,3 +1,38 @@
+export const metadata = {
+    title: 'Stained Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+    description:
+      'Looking for the best stained glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with stained glass. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/stained-glass',
+    },
+    openGraph: {
+      title: 'Stained Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'Looking for the best stained glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with stained glass. Call us at 9319412012.',
+      url: 'https://starglass.in/stained-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Stained Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      description:
+        'Looking for the best stained glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with stained glass. Call us at 9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -7,7 +42,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import ProductSection from "@/components/ProductSection";
 import { Lightbulb, Crown, BarChart3 } from "lucide-react"
 
-export default function BG() {
+export default function SNG() {
     const howItWorksData = {
         title: "HOW IT WORKS",
         description: `
@@ -105,7 +140,7 @@ If you're looking for stained glass dealers in Delhi NCR, Noida, Gurgaon, you ma
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

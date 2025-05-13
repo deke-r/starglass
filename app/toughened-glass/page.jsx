@@ -1,3 +1,38 @@
+export const metadata = {
+    title: 'Toughened Glass Dealer in Delhi NCR, Noida, Gurgaon- StarGlass',
+    description:
+      'StarGlass is the leading toughened glass dealer in Noida - We provide high-quality glass solutions for residential and commercial needs. Call us at 9319412012.',
+    alternates: {
+      canonical: 'https://starglass.in/toughened-glass',
+    },
+    openGraph: {
+      title: 'Toughened Glass Dealer in Delhi NCR, Noida, Gurgaon- StarGlass',
+      description:
+        'StarGlass is the leading toughened glass dealer in Noida - We provide high-quality glass solutions for residential and commercial needs. Call us at 9319412012.',
+      url: 'https://starglass.in/toughened-glass',
+      siteName: 'StarGlass',
+      type: 'website',
+      locale: 'en_IN',
+      images: [
+        {
+          url: '/images/Star Glass Logo.webp',
+          alt: 'StarGlass Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Toughened Glass Dealer in Delhi NCR, Noida, Gurgaon- StarGlass',
+      description:
+        'StarGlass is the leading toughened glass dealer in Noida - We provide high-quality glass solutions for residential and commercial needs. Call us at 9319412012.',
+      images: ['/images/Star Glass Logo.webp'],
+    },
+  }
+  
+
+
+
+
 import FooterSupportBanner from "@/components/FooterSupportBanner";
 import KnowOurWorkSection from "@/components/KnowOurWorkSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -106,7 +141,7 @@ Choose us for reliable, strong, and safe toughened glass solutions that enhance 
                 imageSrc="/images/Rectangle-25.webp"
                 heading="WANTS TO KNOW OUR WORK ?"
                 description={`At Glass Solutions, we bring decades of expertise to Specialty Painting and repairs. We've established trust with top Developers, Contractors, and Curtainwall professionals worldwide. We deliver quality, punctuality, and competitive pricing.\n\nOur experience spans public sector projects, including new construction and renovations. We're fully insured and qualified for Government Projects. Your go-to choice for dependable, skilled solutions.`}
-                exploreLink="/portfolio"
+                exploreLink="/about-us"
                 exploreText="EXPLORE"
             />
 

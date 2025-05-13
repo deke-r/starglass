@@ -1,34 +1,28 @@
 export const metadata = {
-    title: 'Bend Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+    title: 'Glass Block Dealer, Manufacturer & Suppliers in Delhi NCR | StarGlass',
     description:
-      'Looking for the best bend glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with bent glass. Call us at 9319412012.',
+      'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
     alternates: {
-      canonical: 'https://starglass.in/bend-glass',
+      canonical: 'https://starglass.in/glass-block',
     },
     openGraph: {
-      title: 'Bend Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      title: 'Glass Block Dealer, Manufacturer & Suppliers in Delhi NCR | StarGlass',
       description:
-        'Looking for the best bend glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with bent glass. Call us at 9319412012.',
-      url: 'https://starglass.in/bend-glass',
+        'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
+      url: 'https://starglass.in/glass-block',
       siteName: 'StarGlass',
       type: 'website',
       locale: 'en_IN',
-      images: [
-        {
-          url: '/images/Star Glass Logo.webp',
-          alt: 'StarGlass Logo',
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Bend Glass Dealers in Delhi NCR, Noida, Gurgaon | StarGlass',
+      title: 'Glass Block Dealer, Manufacturer & Suppliers in Delhi NCR | StarGlass',
       description:
-        'Looking for the best bend glass dealers in Delhi NCR, Noida, Gurgaon? StarGlass is here to help you modernize your home with bent glass. Call us at 9319412012.',
-      images: ['/images/Star Glass Logo.webp'],
+        'StarGlass is the best etching glass dealer in Delhi NCR, Noida, Gurgaon. We provide custom designs & quality with artistry. Call us at 9319412012.',
     },
   }
   
+
 
 
 import FooterSupportBanner from "@/components/FooterSupportBanner";
@@ -40,23 +34,37 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import ProductSection from "@/components/ProductSection";
 import { Lightbulb, Crown, BarChart3 } from "lucide-react"
 
-export default function BG() {
+export default function GLB() {
     const howItWorksData = {
         title: "HOW IT WORKS",
-        description: `We are a Bend Glass Dealers in Delhi NCR, Noida, Gurgaon. With bend glass, our works systems are perfect for adding an attractive entrance or detail to any space. Star bend glass thanks to advancements in curved glass design and manufacturing by StarGlass, bend glass systems have greatly improved. We eliminate the need for rough-edged glass, providing a more organic and inviting atmosphere. With their sleek and contemporary look, bent glass systems enhance the aesthetic appeal of your space.`,
+        description: `
+
+StarGlass is the Glass Block Manufacturer in Delhi NCR, Noida, Gurgaon. Glass blocks provides natural light and enhance architectural beauty, combining function and aesthetics in building designs. It's important to note that hollow glass blocks are not load-bearing unless specified. These blocks are manufactured in two separate halves, which are pressed together and annealed while the glass is still in a molten state. This process creates sturdy and visually appealing glass wall blocks.
+The security of glass block windows varies based on your type. Standard glass blocks can be broken, but it requires breaking each block individually. Wire reinforcing is present, but it's not a significant deterrent. Metal straps secure glass block windows to the wall and offer better security, especially for larger windows. Solid glass block windows are very tough to break and are sometimes called "bulletproof." It can withstand multiple handgun shots and is comparable to the glass used in bank windows. It is resistance to high-power military rounds is unclear but is believed to be similar to bank window glass.
+
+StarGlass provides the top Glass Block in Delhi NCR, Noida, Gurgaon. Choose glass partitions for abundant natural light, reducing reliance on artificial lighting and creating a cheerful, productive atmosphere. Enjoy a brighter, more inviting space that enhances mood and productivity. Opt for a bright, you can welcoming environment with us.
+
+Opt for our glass blocks to ensure privacy without sacrificing natural light in your homes and offices. Our various designs let you choose how much privacy you want in your project, tailoring it to your needs. Choose us for versatile solutions that balance aesthetics and seclusion, meeting your unique needs effortlessly.
+
+
+
+                                
+
+                            
+`,
     }
 
 
     const productData = {
-        title: "BEND GLASS",
+        title: "GLASS BLOCK",
         subtitle:
-            "Glass is a transparent barrier made of glass panels, often with metal support, used for modern design, light transmission, and clear views.",
+            "Glass block, or glass brick, is a transparent building material for walls and partitions, offering both aesthetics and privacy in architectural design.",
         description:
             "Our premium glass solutions offer enhanced privacy, energy efficiency, and aesthetic appeal. We provide customized solutions tailored to your specific requirements and budget constraints.",
-        imageSrc: "/images/bend-glass1.webp",
+        imageSrc: "/images/glass-block2.webp",
         solutionsTitle: "OUR SOLUTIONS",
         solutionsDescription:
-            "StarGlass is a Bend Glass manufacturer in Delhi NCR, Noida, Gurgaon. Bend glass is created by heating flat glass, shaping it, and then slowly cooling it to reduce internal stresses, resulting in a strong and stable product.",
+            "StarGlass is the Glass Block Dealers in Delhi NCR, Noida, Gurgaon. The  Glass block replaces regular windows for privacy in bathrooms and as decorative walls in halls. It offers privacy without offering light.",
             features: [
                 {
                   icon: <Lightbulb size={32} />,
@@ -73,8 +81,8 @@ export default function BG() {
               ],
         links: [
             {
-                url: "bend-glass",
-                title: "Bend Glass",
+                url: "glass-block",
+                title: "Glass Block",
             },
             {
                 url: "tinted-reflective-glass",
@@ -105,9 +113,9 @@ export default function BG() {
         <>
             <div className="banner-top h-auto">
                 <PageBanner
-                    image="/images/bend-glass-Header.webp"
-                    title="Bend Glass"
-                    pageName="Bend Glass"
+                    image="/images/glass-block-Header.webp"
+                    title="Glass Block"
+                    pageName="Glass Block"
                 />
                 <Navbar />
             </div>
@@ -126,7 +134,7 @@ export default function BG() {
             />
 
 
-            <HowItWorksSection title={howItWorksData.title} description={howItWorksData.description} bgImage='/images/bend-glass2.webp' />
+            <HowItWorksSection title={howItWorksData.title} description={howItWorksData.description} bgImage='/images/glass-block1.webp' />
 
 
 
